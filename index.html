@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trabalho Segundo Bimestre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Trabalho Segundo Bimestre</h1>
+
+  <div class="square">
+    <h2>Atividade 1</h2>
+    <p>Imobiliária Imóbilis - Cálculo da área de um terreno:</p>
+    <label for="length">Comprimento:</label>
+    <input type="number" id="length">
+    <label for="width">Largura:</label>
+    <input type="number" id="width">
+    <button onclick="calculateArea()">Calcular Área</button>
+    <p id="areaResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 2</h2>
+    <p>Cálculo de ferraduras para um haras:</p>
+    <label for="horses">Número de cavalos:</label>
+    <input type="number" id="horses">
+    <button onclick="calculateFerraduras()">Calcular Ferraduras</button>
+    <p id="ferradurasResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 3</h2>
+    <p>Padaria Hotpão - Cálculo de arrecadação e poupança:</p>
+    <label for="pao">Quantidade de pães:</label>
+    <input type="number" id="pao">
+    <label for="broa">Quantidade de broas:</label>
+    <input type="number" id="broa">
+    <button onclick="calculateArrecadacao()">Calcular Arrecadação</button>
+    <p id="arrecadacaoResult" class="result"></p>
+    <p id="poupancaResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 4</h2>
+    <p>Cálculo de dias de vida:</p>
+    <label for="name">Nome:</label>
+    <input type="text" id="name">
+    <label for="age">Idade:</label>
+    <input type="number" id="age">
+    <button onclick="calculateDiasVida()">Calcular Dias de Vida</button>
+    <p id="diasVidaResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 5</h2>
+    <p>Cálculo de litros de gasolina:</p>
+    <label for="precoLitro">Preço do litro:</label>
+    <input type="number" id="precoLitro">
+    <label for="valorPagamento">Valor do pagamento:</label>
+    <input type="number" id="valorPagamento">
+    <button onclick="calculateLitrosGasolina()">Calcular Litros de Gasolina</button>
+    <p id="litrosGasolinaResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 6</h2>
+    <p>Cálculo do valor a pagar no restaurante Bem-Bão:</p>
+    <label for="pesoPrato">Peso do prato (em quilos):</label>
+    <input type="number" id="pesoPrato">
+    <button onclick="calculateValorPagar()">Calcular Valor a Pagar</button>
+    <p id="valorPagarResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 7</h2>
+    <p>Cálculo de dias passados desde o início do ano:</p>
+    <label for="dia">Dia:</label>
+    <input type="number" id="dia">
+    <label for="mes">Mês:</label>
+    <input type="number" id="mes">
+    <button onclick="calculateDiasPassados()">Calcular Dias Passados</button>
+    <p id="diasPassadosResult" class="result"></p>
+  </div>
+
+  <div class="square">
+    <h2>Atividade 8</h2>
+    <p>Cálculo do valor arrecadado com a venda de camisetas:</p>
+    <label for="small">Quantidade de camisetas pequenas:</label>
+    <input type="number" id="small">
+    <label for="medium">Quantidade de camisetas médias:</label>
+    <input type="number" id="medium">
+    <label for="large">Quantidade de camisetas grandes:</label>
+    <input type="number" id="large">
+    <button onclick="calculateValorArrecadado()">Calcular Valor Arrecadado</button>
+    <p id="valorArrecadadoResult" class="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
